@@ -1,0 +1,15 @@
+{
+    "steps": [
+      {
+        "name": "gcr.io/cloud-builders/gke-deploy",
+        "args": [
+          "run",
+          "--filename=gcr.io/zinc-involution-352620/blog1:latest",
+          "--location=northamerica-northeast1",
+          "--cluster=mfsc-cluster-1"
+        ]
+      }
+    ]
+  }
+
+
