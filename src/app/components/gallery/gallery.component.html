@@ -1,0 +1,12 @@
+<app-gallery-header (newItemClickedEvent)="setItemClicked($event)"></app-gallery-header>
+<section class="py-0">
+    <div class="container px-1 my-1">
+        <app-gallery-content1 *ngIf="itemClicked==='one'"></app-gallery-content1>
+        <app-gallery-content2 *ngIf="itemClicked==='two'"></app-gallery-content2>
+        <app-gallery-content3 *ngIf="itemClicked==='three'"></app-gallery-content3>
+        <app-gallery-content1 *ngIf="itemClicked==='all'"></app-gallery-content1>
+        <app-gallery-content2 *ngIf="itemClicked==='all'"></app-gallery-content2>
+        <app-gallery-content3 *ngIf="itemClicked==='all'"></app-gallery-content3>
+    </div>
+</section>
+

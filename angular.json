@@ -10,14 +10,14 @@
           "strict": true
         }
       },
-      "root": "",
+      "root": "darnicko",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/blog1",
+            "outputPath": "dist/darnicko",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -28,11 +28,25 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/bootstrap-icons/font/bootstrap-icons.css"
+              "src/app/css/darnicko.css",
+              "src/app/js/aos/aos.css", 
+              "src/app/js/swiper/swiper-bundle.min.css", 
+              "node_modules/bootstrap-icons/font/bootstrap-icons.css", 
+              "node_modules/bootstrap/dist/css/bootstrap.min.css", 
+              "node_modules/boxicons/css/boxicons.min.css", 
+              "node_modules/glightbox/dist/css/glightbox.min.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-              "src/app/js/scripts.js"]
+              "src/app/js/scripts.js",
+              "src/app/js/purecounter/purecounter_vanilla.js", 
+              "src/app/js/aos/aos.js", 
+              "node_modules/glightbox/dist/js/glightbox.min.js", 
+              "src/app/js/isotope-layout/isotope.pkgd.min.js", 
+              "src/app/js/swiper/swiper-bundle.min.js", 
+              "src/app/js/waypoints/noframework.waypoints.js", 
+              "src/app/js/php-email-form/validate.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -98,11 +112,25 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/bootstrap-icons/font/bootstrap-icons.css"
+              "src/app/css/darnicko.css",
+              "src/app/js/aos/aos.css", 
+              "src/app/js/swiper/swiper-bundle.min.css", 
+              "node_modules/bootstrap-icons/font/bootstrap-icons.css", 
+              "node_modules/bootstrap/dist/css/bootstrap.min.css", 
+              "node_modules/boxicons/css/boxicons.min.css", 
+              "node_modules/glightbox/dist/css/glightbox.min.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-              "src/app/js/scripts.js"]
+              "src/app/js/scripts.js",
+              "src/app/js/purecounter/purecounter_vanilla.js", 
+              "src/app/js/aos/aos.js", 
+              "node_modules/glightbox/dist/js/glightbox.min.js", 
+              "src/app/js/isotope-layout/isotope.pkgd.min.js", 
+              "src/app/js/swiper/swiper-bundle.min.js", 
+              "src/app/js/waypoints/noframework.waypoints.js", 
+              "src/app/js/php-email-form/validate.js"
+            ]
           }
         }
       }

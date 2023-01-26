@@ -9,17 +9,20 @@ import { HomeComponent } from './components/home/home.component';
 import { PortfolioItemComponent } from './components/portfolio-item/portfolio-item.component';
 import { PortfolioOverviewComponent } from './components/portfolio-overview/portfolio-overview.component';
 import { PricingComponent } from './components/pricing/pricing.component';
-
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { TestComponent } from './components/test/test.component';
 const routes: Routes = [
   {path: 'home', component: HomeComponent },
   {path: 'about', component: AboutComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'pricing', component: PricingComponent},
-  {path: 'faq', component: FaqComponent},
+  {path: 'faq', component: TestComponent},
   {path: 'bloghome', component: BlogHomeComponent},
   {path: 'blogpost', component: BlogPostComponent},
   {path: 'portfoliooverview', component: PortfolioOverviewComponent},
   {path: 'portfolioitem', component: PortfolioItemComponent},
+  {path: 'gallery', component: GalleryComponent},
+  {path: 'test', component: TestComponent}
 ];
 
 @NgModule({

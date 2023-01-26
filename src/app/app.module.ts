@@ -42,6 +42,14 @@ import { PortfolioItemComponent } from './components/portfolio-item/portfolio-it
 import { PortfolioOverviewComponent } from './components/portfolio-overview/portfolio-overview.component';
 import { ProtfolioContentComponent } from './components/portfolio-overview/protfolio-content/protfolio-content.component';
 import { ProtfolioItemContentComponent } from './components/portfolio-item/protfolio-item-content/protfolio-item-content.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { GalleryHeaderComponent } from './components/gallery/gallery-header/gallery-header.component';
+import { GalleryContent1Component } from './components/gallery/gallery-content1/gallery-content1.component';
+import { GalleryContent2Component } from './components/gallery/gallery-content2/gallery-content2.component';
+import { GalleryContent3Component } from './components/gallery/gallery-content3/gallery-content3.component';
+import { TestComponent } from './components/test/test.component';
+import { ContactusWidgetComponent } from './components/contactus-widget/contactus-widget.component';
+import { PromotionsWidgetComponent } from './components/promotions-widget/promotions-widget.component';
 
 
 @NgModule({
@@ -84,7 +92,15 @@ import { ProtfolioItemContentComponent } from './components/portfolio-item/protf
     PortfolioItemComponent,
     PortfolioOverviewComponent,
     ProtfolioContentComponent,
-    ProtfolioItemContentComponent
+    ProtfolioItemContentComponent,
+    GalleryComponent,
+    GalleryHeaderComponent,
+    GalleryContent1Component,
+    GalleryContent2Component,
+    GalleryContent3Component,
+    TestComponent,
+    ContactusWidgetComponent,
+    PromotionsWidgetComponent,
   ],
   imports: [
     BrowserModule,
